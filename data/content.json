@@ -1,0 +1,298 @@
+{
+  "brand": "AUDNY",
+  "logo": "",
+  "logoAlt": "",
+  "siteTitle": "Queue with someone who actually means \"Give 5 minutes.\"",
+  "siteDescription": "[Add your product description here]",
+  "nav": {
+    "links": [
+      {
+        "label": "Games",
+        "href": "#games"
+      },
+      {
+        "label": "How it works",
+        "href": "#how"
+      },
+      {
+        "label": "Community",
+        "href": "#squad"
+      }
+    ],
+    "cta": "JOIN A PARTY",
+    "ctaHref": "#join"
+  },
+  "hero": {
+    "sticker": "NEW — [SEASON / DROP NAME]",
+    "titleLine1": "Queue with someone ",
+    "titleLine2": "who actually means \"Give 5 minutes.\"",
+    "lede": "",
+    "primaryCta": "Book it, and Let's Run it!",
+    "primaryHref": "#join",
+    "secondaryCta": "WATCH TRAILER",
+    "secondaryHref": "#games",
+    "trust": [
+      "[XX]K+ squads",
+      "[X.X] avg. rating",
+      "[Free to start]"
+    ],
+    "lobbyTitle": "PARTY LOBBY",
+    "lobbyReadyWord": "READY",
+    "lobbyNowPlaying": "NOW PLAYING:",
+    "lobbyGame": "[GAME]",
+    "lobbySticker": "PARTY OF 4!",
+    "lobbyTapText": "TAP TO READY",
+    "lobbyReadyText": "READY!",
+    "lobbyWaiting": "WAITING…",
+    "lobbyGo": "LET'S GO!",
+    "players": [
+      {
+        "name": "P1 · [NAME]",
+        "image": "",
+        "imageAlt": ""
+      },
+      {
+        "name": "P2 · [NAME]",
+        "image": "",
+        "imageAlt": ""
+      },
+      {
+        "name": "P3 · [NAME]",
+        "image": "",
+        "imageAlt": ""
+      },
+      {
+        "name": "P4 · [NAME]",
+        "image": "",
+        "imageAlt": ""
+      }
+    ],
+    "image": "",
+    "imageAlt": ""
+  },
+  "ticker": [
+    "MINECRAFT",
+    "ROBLOX",
+    "VALORANT",
+    "PEAK",
+    "[+ MORE]"
+  ],
+  "games": {
+    "tag": "STAGE 01 — PICK YOUR PARTY",
+    "headingA": "Ready for",
+    "headingB": "tonight's game?!",
+    "lede": "[One or two sentences on how your product plugs into the party games your players already love.]",
+    "image": "",
+    "imageAlt": "",
+    "items": [
+      {
+        "name": "Minecraft",
+        "tag": "BUILD",
+        "desc": "[How your product levels up block-building nights.]",
+        "icon": "",
+        "iconAlt": ""
+      },
+      {
+        "name": "Roblox",
+        "tag": "CREATE",
+        "desc": "[How your product fits the endless world-hopping.]",
+        "icon": "",
+        "iconAlt": ""
+      },
+      {
+        "name": "Valorant",
+        "tag": "TACTICAL",
+        "desc": "[How your product powers ranked nights with the squad.]",
+        "icon": "",
+        "iconAlt": ""
+      },
+      {
+        "name": "PEAK",
+        "tag": "CO-OP",
+        "desc": "[How your product helps the squad climb together.]",
+        "icon": "",
+        "iconAlt": ""
+      }
+    ],
+    "moreTitle": "[+ More games]",
+    "moreText": "[Tease the full game list here.]"
+  },
+  "how": {
+    "steps": [
+      {
+        "title": "Pick a game",
+        "desc": "[Step one — what the player does first, in one friendly sentence.]"
+      },
+      {
+        "title": "Gather the squad",
+        "desc": "[Step two — how friends join the party.]"
+      },
+      {
+        "title": "Level up together",
+        "desc": "[Step three — the reward or payoff.]"
+      }
+    ],
+    "spotlightHeadline": "[Spotlight headline]",
+    "spotlightText": "[Two sentences on the one feature party-game players care about most.]",
+    "points": [
+      "[Supporting point one]",
+      "[Supporting point two]",
+      "[Supporting point three]"
+    ],
+    "buttonLabel": "SEE ALL FEATURES",
+    "buttonHref": "#join",
+    "mascotImage": "",
+    "mascotImageAlt": "",
+    "productImage": "",
+    "productImageAlt": ""
+  },
+  "squad": {
+    "tag": "STAGE 02 — SQUAD GOALS",
+    "headingA": "Game night is better",
+    "headingB": "together",
+    "lede": "[One sentence inviting visitors to see how squads are using it across their favorite games.]",
+    "image": "",
+    "imageAlt": "",
+    "sizes": [
+      {
+        "title": "Duo",
+        "desc": "[Why it works for 2 players.]"
+      },
+      {
+        "title": "Squad of 4",
+        "desc": "[Why it works for a classic party.]"
+      },
+      {
+        "title": "Big party",
+        "desc": "[Why it works for 8 or more.]"
+      }
+    ],
+    "stats": [
+      {
+        "value": "[XX]K+",
+        "label": "PARTIES STARTED"
+      },
+      {
+        "value": "[X.X]",
+        "label": "AVERAGE RATING"
+      },
+      {
+        "value": "[XX]",
+        "label": "GAMES SUPPORTED"
+      }
+    ],
+    "testimonials": [
+      {
+        "game": "MINECRAFT NIGHT",
+        "quote": "[Short, honest player quote about a game night that went great.]",
+        "handle": "@[gamertag]",
+        "meta": "[Squad size · platform]"
+      },
+      {
+        "game": "ROBLOX HANGOUT",
+        "quote": "[Short, honest player quote about a game night that went great.]",
+        "handle": "@[gamertag]",
+        "meta": "[Squad size · platform]"
+      },
+      {
+        "game": "PEAK CLIMB",
+        "quote": "[Short, honest player quote about a game night that went great.]",
+        "handle": "@[gamertag]",
+        "meta": "[Squad size · platform]"
+      }
+    ],
+    "clipsTitle": "SQUAD CLIPS & SCREENSHOTS",
+    "clips": [
+      {
+        "image": "",
+        "alt": ""
+      },
+      {
+        "image": "",
+        "alt": ""
+      },
+      {
+        "image": "",
+        "alt": ""
+      },
+      {
+        "image": "",
+        "alt": ""
+      }
+    ]
+  },
+  "join": {
+    "tag": "FINAL STAGE — INSERT COIN",
+    "headingA": "Ready to",
+    "headingB": "party?",
+    "lede": "[State the offer plainly: what they get the moment they join, and what it costs to start.]",
+    "emailLabel": "YOUR EMAIL",
+    "emailPlaceholder": "player@email.com",
+    "buttonLabel": "CLAIM [YOUR REWARD]",
+    "note": "[Reassurance line — e.g. no spam, cancel anytime.]",
+    "successTitle": "You're in the lobby!",
+    "successText": "We'll send [YOUR REWARD] to",
+    "image": "",
+    "imageAlt": ""
+  },
+  "footer": {
+    "tagline": "[Short brand line — one sentence.]",
+    "columns": [
+      {
+        "title": "PLAY",
+        "links": [
+          {
+            "label": "Games",
+            "href": "#games"
+          },
+          {
+            "label": "How it works",
+            "href": "#how"
+          },
+          {
+            "label": "Community",
+            "href": "#squad"
+          }
+        ]
+      },
+      {
+        "title": "HELP",
+        "links": [
+          {
+            "label": "FAQ",
+            "href": "#top"
+          },
+          {
+            "label": "Support",
+            "href": "#top"
+          },
+          {
+            "label": "Contact",
+            "href": "#top"
+          }
+        ]
+      },
+      {
+        "title": "FOLLOW",
+        "links": [
+          {
+            "label": "[Social 1]",
+            "href": "#top"
+          },
+          {
+            "label": "[Social 2]",
+            "href": "#top"
+          },
+          {
+            "label": "[Social 3]",
+            "href": "#top"
+          }
+        ]
+      }
+    ],
+    "logo": "",
+    "logoAlt": "",
+    "copyright": "© 2026 [BRAND]. ALL RIGHTS RESERVED.",
+    "signoff": "SEE YOU IN THE LOBBY!"
+  }
+}
