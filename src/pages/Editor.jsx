@@ -165,6 +165,17 @@ function Node(props) {
 function Field({ field, content, onChange, upload }) {
   if (field.type === "image") return <ImageField {...{ field, content, onChange, upload }} />;
   const value = getIn(content, field.path) ?? "";
+  if (field.type === "select") {
+    return (
+      <label className="ed-field">
+        <span className="ed-label">{field.label}</span>
+        {field.hint && <span className="ed-hint">{field.hint}</span>}
+        <select className="ed-input" value={value || field.options[0][0]} onChange={(e) => onChange(field.path, e.target.value)}>
+          {field.options.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
+        </select>
+      </label>
+    );
+  }
   const Tag = field.type === "long" ? "textarea" : "input";
   return (
     <label className="ed-field">

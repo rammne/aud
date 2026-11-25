@@ -1,6 +1,7 @@
 import Blob from "./Blob.jsx";
 import ChiikawaSlot from "./ChiikawaSlot.jsx";
 import { SIZE_STYLES, STAT_COLORS, TESTIMONIAL_STYLES } from "../data.js";
+import { fitStyle } from "../content/fit.js";
 import { useContent } from "../content/ContentContext.jsx";
 
 export default function Squad() {
@@ -11,7 +12,7 @@ export default function Squad() {
         <div className="section__head">
           <div className="section__intro">
             <span className="tag tag--mango tag--onDark">{squad.tag}</span>
-            <h2 className="h2">
+            <h2 className="h2" style={fitStyle(squad.headingA + squad.headingB, squad.headingSize)}>
               {squad.headingA} <span className="text-pink">{squad.headingB}</span>
             </h2>
             <p className="lede">{squad.lede}</p>

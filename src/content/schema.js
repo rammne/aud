@@ -7,6 +7,7 @@ const long = (path, label, hint) => ({ path, label, hint, type: "long" });
 const link = (path, label = "Link address") => ({ path, label, hint: "Use #games / #how / #squad / #join to scroll on this page, or a full address like https://…" });
 const img = (path, label, hint, altPath) => ({ path, label, hint, type: "image", altPath: altPath || `${path}Alt` });
 const list = (path, itemLabel, fields, opts = {}) => ({ type: "list", path, itemLabel, fields, min: 0, ...opts });
+const size = (path) => ({ path, label: "Text size", hint: "Auto shrinks long text to fit. Or pick a fixed size.", type: "select", options: [["auto", "Auto (fit to length)"], ["small", "Smaller"], ["normal", "Normal"], ["large", "Larger"]] });
 const group = (title, ...nodes) => ({ title, nodes });
 
 export const SECTIONS = [
@@ -43,6 +44,7 @@ export const SECTIONS = [
         t("hero.sticker", "Sticker above headline"),
         t("hero.titleLine1", "Headline — line 1"),
         t("hero.titleLine2", "Headline — line 2 (highlighted)"),
+        size("hero.titleSize"),
         long("hero.lede", "Intro sentence"),
       ),
       group(
@@ -93,6 +95,7 @@ export const SECTIONS = [
         t("games.tag", "Small label"),
         t("games.headingA", "Heading — first part"),
         t("games.headingB", "Heading — highlighted part"),
+        size("games.headingSize"),
         long("games.lede", "Intro text"),
         img("games.image", "Section mascot image", "Square, ~140×140 px or larger"),
       ),
@@ -117,6 +120,7 @@ export const SECTIONS = [
       group(
         "Spotlight",
         t("how.spotlightHeadline", "Headline"),
+        size("how.spotlightSize"),
         long("how.spotlightText", "Text"),
         list("how.points", "Bullet point", (p) => [t(p, "Text")]),
         t("how.buttonLabel", "Button text"),
@@ -139,6 +143,7 @@ export const SECTIONS = [
         t("squad.tag", "Small label"),
         t("squad.headingA", "Heading — first part"),
         t("squad.headingB", "Heading — highlighted part"),
+        size("squad.headingSize"),
         long("squad.lede", "Intro text"),
         img("squad.image", "Section mascot image", "Square, ~140×140 px or larger"),
       ),
@@ -170,6 +175,7 @@ export const SECTIONS = [
         t("join.tag", "Small label"),
         t("join.headingA", "Heading — first part"),
         t("join.headingB", "Heading — highlighted part"),
+        size("join.headingSize"),
         long("join.lede", "Offer text"),
       ),
       group(

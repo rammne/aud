@@ -1,6 +1,7 @@
 import ChiikawaSlot from "./ChiikawaSlot.jsx";
 import { Arrow, Check, Sparkle } from "./Icons.jsx";
 import { STEP_COLORS } from "../data.js";
+import { fitStyle } from "../content/fit.js";
 import { useContent } from "../content/ContentContext.jsx";
 
 export default function HowItWorks() {
@@ -19,7 +20,7 @@ export default function HowItWorks() {
 
       <div className="spotlight">
         <div className="spotlight__text">
-          <h3 className="h2 h2--sm">{how.spotlightHeadline}</h3>
+          <h3 className="h2 h2--sm" style={fitStyle(how.spotlightHeadline, how.spotlightSize, 32)}>{how.spotlightHeadline}</h3>
           <p className="lede lede--ink">{how.spotlightText}</p>
           <ul className="checks">
             {how.points.map((p, i) => (

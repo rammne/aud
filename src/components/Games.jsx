@@ -1,6 +1,7 @@
 import ChiikawaSlot from "./ChiikawaSlot.jsx";
 import { GAME_STYLES } from "../data.js";
 import { GAME_ICONS, Plus } from "./Icons.jsx";
+import { fitStyle } from "../content/fit.js";
 import { useContent } from "../content/ContentContext.jsx";
 
 export default function Games() {
@@ -10,7 +11,7 @@ export default function Games() {
       <div className="section__head">
         <div className="section__intro">
           <span className="tag tag--pink">{games.tag}</span>
-          <h2 className="h2">
+          <h2 className="h2" style={fitStyle(games.headingA + games.headingB, games.headingSize)}>
             {games.headingA} <span className="mark mark--mango">{games.headingB}</span>
           </h2>
           <p className="lede">{games.lede}</p>

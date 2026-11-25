@@ -3,6 +3,7 @@ import Blob from "./Blob.jsx";
 import ChiikawaSlot from "./ChiikawaSlot.jsx";
 import { Arrow, Play, Sparkle } from "./Icons.jsx";
 import { PLAYERS } from "../data.js";
+import { fitStyle } from "../content/fit.js";
 import { useContent } from "../content/ContentContext.jsx";
 
 function Lobby() {
@@ -61,7 +62,7 @@ export default function Hero() {
     <section id="top" className="wrap hero">
       <div className="hero__text">
         <span className="sticker sticker--tilt">{hero.sticker}</span>
-        <h1 className="hero__title">
+        <h1 className="hero__title" style={fitStyle(hero.titleLine1 + hero.titleLine2, hero.titleSize, 24)}>
           {hero.titleLine1}
           <br />
           <span className="hero__mark">{hero.titleLine2}</span>

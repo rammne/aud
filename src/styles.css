@@ -97,11 +97,11 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .h2 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(36px, 4.8vw, 66px);
+  font-size: calc(clamp(36px, 4.8vw, 66px) * var(--fit, 1));
   line-height: 1.02;
 }
-.h2--sm { font-size: clamp(30px, 3.4vw, 46px); line-height: 1.08; }
-.h2--xl { font-size: clamp(38px, 5vw, 72px); line-height: 1; }
+.h2--sm { font-size: calc(clamp(30px, 3.4vw, 46px) * var(--fit, 1)); line-height: 1.08; }
+.h2--xl { font-size: calc(clamp(38px, 5vw, 72px) * var(--fit, 1)); line-height: 1; }
 .h3 { font-family: var(--font-display); font-weight: 700; font-size: 28px; }
 .lede { font-size: 20px; line-height: 1.55; font-weight: 700; }
 .lede--ink { font-size: 19px; }
@@ -186,7 +186,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .hero__title {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(46px, 7.2vw, 100px);
+  font-size: calc(clamp(46px, 7.2vw, 100px) * var(--fit, 1));
   line-height: 1;
   letter-spacing: -1px;
 }

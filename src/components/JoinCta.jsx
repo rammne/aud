@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ChiikawaSlot from "./ChiikawaSlot.jsx";
 import { Arrow } from "./Icons.jsx";
+import { fitStyle } from "../content/fit.js";
 import { useContent } from "../content/ContentContext.jsx";
 
 export default function JoinCta() {
@@ -21,7 +22,7 @@ export default function JoinCta() {
           <ChiikawaSlot className="join__slot" width={120} height={120} rotate={6} src={join.image} alt={join.imageAlt} />
           <div className="join__text">
             <span className="tag tag--mango">{join.tag}</span>
-            <h2 className="h2 h2--xl">
+            <h2 className="h2 h2--xl" style={fitStyle(join.headingA + join.headingB, join.headingSize, 20)}>
               {join.headingA} <span className="mark mark--mango">{join.headingB}</span>
             </h2>
             <p className="lede lede--ink">{join.lede}</p>
